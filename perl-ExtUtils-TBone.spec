@@ -26,7 +26,7 @@ ExtUtils::TBone - "szkielet" dla tworzenia plików testowych "t/*.t".
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
