@@ -3,7 +3,7 @@ Summary:	ExtUtils-TBone perl module
 Summary(pl):	Modu³ perla ExtUtils-TBone
 Name:		perl-ExtUtils-TBone
 Version:	1.124
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -30,12 +30,13 @@ perl Makefile.PL
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
+gzip -9nf README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc *.gz docs/*
 %{perl_sitelib}/ExtUtils/TBone.pm
 %{_mandir}/man3/*
