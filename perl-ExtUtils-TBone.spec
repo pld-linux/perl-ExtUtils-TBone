@@ -37,8 +37,7 @@ make install DESTDIR=$RPM_BUILD_ROOT
   mv .packlist.new .packlist
 )
 
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        README
+gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
