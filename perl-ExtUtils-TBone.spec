@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	ExtUtils
 %define	pnam	TBone
-%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils-TBone perl module
 Summary(pl):	Modu³ perla ExtUtils-TBone
 Name:		perl-ExtUtils-TBone
 Version:	1.124
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ ExtUtils-TBone - a "skeleton" for writing "t/*.t" test files.
 ExtUtils-TBone - "szkielet" dla tworzenia plików testowych "t/*.t".
 
 %prep
-%setup -q -n ExtUtils-TBone-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
