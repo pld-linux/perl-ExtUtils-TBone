@@ -25,7 +25,7 @@ ExtUtils-TBone - "szkielet" dla tworzenia plików testowych "t/*.t".
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
