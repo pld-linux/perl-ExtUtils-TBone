@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	ExtUtils
-%define	pnam	TBone
+%define		pdir	ExtUtils
+%define		pnam	TBone
 Summary:	ExtUtils::TBone - a "skeleton" for writing test files
 Summary(pl):	ExtUtils::TBone - szkielet do tworzenia testów
 Name:		perl-ExtUtils-TBone
