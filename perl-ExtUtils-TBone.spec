@@ -5,7 +5,7 @@ Summary:	ExtUtils::TBone perl module
 Summary(pl):	Modu³ perla ExtUtils::TBone
 Name:		perl-ExtUtils-TBone
 Version:	1.124
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
