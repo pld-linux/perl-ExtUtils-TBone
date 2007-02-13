@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	TBone
 Summary:	ExtUtils::TBone - a "skeleton" for writing test files
-Summary(pl.UTF-8):   ExtUtils::TBone - szkielet do tworzenia testów
+Summary(pl.UTF-8):	ExtUtils::TBone - szkielet do tworzenia testów
 Name:		perl-ExtUtils-TBone
 Version:	1.124
 Release:	7
