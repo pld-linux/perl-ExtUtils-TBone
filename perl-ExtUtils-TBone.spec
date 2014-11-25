@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	ExtUtils
 %define		pnam	TBone
+%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils::TBone - a "skeleton" for writing test files
 Summary(pl.UTF-8):	ExtUtils::TBone - szkielet do tworzenia testów
 Name:		perl-ExtUtils-TBone
@@ -15,8 +15,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	81914cadf266f6cd2083bd321c1557cd
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/ExtUtils-TBone/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
