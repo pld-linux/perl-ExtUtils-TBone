@@ -4,7 +4,6 @@
 
 %define		pdir	ExtUtils
 %define		pnam	TBone
-%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils::TBone - a "skeleton" for writing test files
 Summary(pl.UTF-8):	ExtUtils::TBone - szkielet do tworzenia testów
 Name:		perl-ExtUtils-TBone
