@@ -8,7 +8,7 @@ Summary:	ExtUtils::TBone - a "skeleton" for writing test files
 Summary(pl.UTF-8):	ExtUtils::TBone - szkielet do tworzenia testów
 Name:		perl-ExtUtils-TBone
 Version:	1.124
-Release:	8
+Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
